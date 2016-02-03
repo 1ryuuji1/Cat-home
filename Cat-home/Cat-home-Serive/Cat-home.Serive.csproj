@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\CatCommand\AwardsCommand.cs" />
     <Compile Include="Command\CatCommand\CatCommand.cs" />
-    <Compile Include="Command\PersonCommand\HostPerson.cs" />
+    <Compile Include="Command\MessageCommand\MessageCommand.cs" />
+    <Compile Include="Command\PersonCommand\HostPersonCommand.cs" />
+    <Compile Include="Command\PersonCommand\VisitorCommand.cs" />
+    <Compile Include="Command\PictureCommand.cs" />
     <Compile Include="Dtos\Enum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Cat_home_Serive
 {
@@ -7,57 +8,57 @@ namespace Cat_home_Serive
         /// <summary>
         /// ID
         /// </summary>
-        private Guid ID { get; set; }
+        public Guid ID { get; set; }
 
         /// <summary>
         /// 猫的名字
         /// </summary>
-        private string CatName { get; set; }
+        public string CatName { get; set; }
 
         /// <summary>
         /// 猫的种类
         /// </summary>
-        private string Species { get; set; }
+        public string Species { get; set; }
 
         /// <summary>
         /// 猫的生日 时间戳
         /// </summary>
-        private long Birthday { get; set; }
+        public long Birthday { get; set; }
 
         /// <summary>
         /// 猫妈妈的名字
         /// </summary>
-        private string MamName { get; set; }
+        public string MamName { get; set; }
 
         /// <summary>
         /// 猫妈妈的ID
         /// </summary>
-        private Guid MamID { get; set; }
+        public Guid MamID { get; set; }
 
         /// <summary>
         /// 猫爸爸的名字
         /// </summary>
-        private string DadName { get; set; }
+        public string DadName { get; set; }
 
         /// <summary>
         /// 猫爸爸的ID
         /// </summary>
-        private Guid DadID { get; set; }
+        public Guid DadID { get; set; }
 
         /// <summary>
         /// 猫的照片的集合
         /// </summary>
-        private string Piceture { get; set; }
+        public string Piceture { get; set; }
 
         /// <summary>
         /// 猫的毛色花纹
         /// </summary>
-        private string Coat { get; set; }
+        public string Coat { get; set; }
 
         /// <summary>
         /// 猫的得奖经历
         /// </summary>
-        private string Awards { get; set;  }
+        public ICollection<AwardsCommand> Awards { get; set; }
 
         /// <summary>
         /// 猫的级别，宠物级赛级繁育级
@@ -72,12 +73,12 @@ namespace Cat_home_Serive
         /// <summary>
         /// 猫的主人的信息
         /// </summary>
-        public HostPerson Host { get; set; }
+        public HostPersonCommand Host { get; set; }
 
         /// <summary>
         /// 猫的绝育状态
         /// </summary>
-        public Enum.SterilizationStatus  SterilizationStatus { get; set; }
+        public Enum.SterilizationStatus SterilizationStatus { get; set; }
 
         /// <summary>
         /// 猫的疫苗状态
@@ -103,5 +104,7 @@ namespace Cat_home_Serive
         /// 猫的销售状态
         /// </summary>
         public Enum.SaleStatus SaleStatus { get; set; }
+
+        public ICollection<PictureCommand> Picture { get; set; }
     }
 }
