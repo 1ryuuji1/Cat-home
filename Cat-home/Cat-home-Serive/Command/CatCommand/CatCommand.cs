@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Cat_home_Serive
+namespace Cat_home_Service
 {
     class CatCommand
     {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat-home.Serive", "Cat-home-Serive\Cat-home.Serive.csproj", "{06E7023A-BBB1-490A-B740-0E7B1852E5D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat-home.Service", "Cat-home-Serive\Cat-home.Service.csproj", "{06E7023A-BBB1-490A-B740-0E7B1852E5D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat-home.Web", "Cat-home.Web\Cat-home.Web.csproj", "{76114D22-4FC1-4ABB-BD5E-B64B17916F26}"
 EndProject

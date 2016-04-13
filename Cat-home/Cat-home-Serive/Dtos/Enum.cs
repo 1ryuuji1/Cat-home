@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cat_home_Serive
+namespace Cat_home_Service
+
 {
     public class Enum
     {
@@ -27,7 +28,16 @@ namespace Cat_home_Serive
 
         public enum SaleStatus
         {
+            onsale=0,
+            outsale=1
 
+        }
+
+        public enum PersonStatus
+        {
+            admin=0,
+            customer,
+            tourist
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cat_home_Serive
+namespace Cat_home_Service
 {
     public class MessageCommand
     {
